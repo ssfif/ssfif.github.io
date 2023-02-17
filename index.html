@@ -9,10 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@200;300&display=swap" rel="stylesheet">
 
     <style>
         body {
-            background-color: rgb(5, 5, 36);
+            background-color:rgb(6, 17, 35);
+            background-image: radial-gradient(circle at 1px 1px, rgb(13, 37, 66) 2px, transparent 0);
+            background-size: 40px 40px;
+            background-position: -16.5vw -19px;
+        }
+
+        body::-webkit-scrollbar{
+            display: none;
         }
 
         * {
@@ -25,15 +33,6 @@
             margin: 0;
         }
 
-        .segment {
-            display: flex;
-            vertical-align: top;
-            justify-content: start;
-            flex-direction: column;
-            padding-bottom: 400px;
-            margin-bottom: 15px;
-        }
-
         p {
             margin: 0;
         }
@@ -42,6 +41,8 @@
             margin-bottom: 10px;
             font-weight: 600;
             font-size: 40px;
+            margin-left: 15px;
+            margin-top: 10px;
         }
 
         .inside-text {
@@ -54,6 +55,7 @@
             display: flex;
             padding: 10px;
             margin: 2px;
+            margin-left: 15px;
         }
 
         .content-text {
@@ -65,21 +67,50 @@
             padding: 5px;
         }
 
-        .segment:nth-child(odd) {
-            background-color: rgb(7, 7, 46);
-        }
-
         img {
             border-radius: 12px;
             margin: 2px;
             padding: 2px;
         }
+
+        .segment {
+            background-color: rgb(8, 21, 43);
+            border-bottom: 5px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(9, 23, 48);
+            display: flex;
+            vertical-align: top;
+            justify-content: start;
+            flex-direction: column;
+            padding-bottom: 40vh;
+            padding-right: 1px;
+        }
+
+        #header {
+            height: 600px;
+        }
+        #header .header-title {
+            font-family: 'Tourney',Arial, Helvetica, sans-serif, "cursive";
+            font-size: 100px;
+        }
+        #header .header-subtitle {
+            margin-left: 120px;
+            font-size: 25px;
+            font-weight: 200;
+            color: rgba(255, 255, 255, 0.25);
+            font-family: 'Tourney',Arial, Helvetica, sans-serif, "cursive";
+        }
     </style>
 
 </head>
 <body>
+    <div id="header">
+        <p class="header-title">Mikołaj Kopernik</p>
+        <p class="header-subtitle">Prezentacja wykonana przez</p>
+        <p class="header-subtitle">Fabiana Stefańskiego oraz Filipa Pietruszyńskiego</p>
+    </div>
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div data-aos="fade-in" data-aos-delay="50" data-aos="flip-down" class="segment">
+    <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="2" data-aos-offset="500" class="segment">
         <p class="title">Kopernik</p>
         <div class="segment-content">
             <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
@@ -88,7 +119,26 @@
     </div>
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div data-aos="fade-in" data-aos-delay="50" data-aos="flip-down" class="segment">
+    <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="2" data-aos-offset="500" class="segment">
+        <p class="title">Kopernik</p>
+        <div class="segment-content">
+            <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
+            <div class="content-images"><img src="https://i.ibb.co/frr4BWz/tmp-name-2-31487-1502920343-3-dblbig.jpg"></div>
+        </div>
+    </div>
+    <div></div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="2" data-aos-offset="500" class="segment">
+        <p class="title">Kopernik</p>
+        <div class="segment-content">
+            <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
+            <div class="content-images"><img src="https://i.ibb.co/frr4BWz/tmp-name-2-31487-1502920343-3-dblbig.jpg"></div>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="2" data-aos-offset="500" class="segment">
         <p class="title">Kopernik</p>
         <div class="segment-content">
             <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
