@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-
+    
     <style>
 
   html {
@@ -45,6 +45,7 @@
         }
         
         .title {
+            transition-duration: 500ms;
             margin-bottom: 10px;
             font-weight: 600;
             font-size: 80px;
@@ -121,6 +122,18 @@
             font-weight: 200;
             color: rgba(255, 255, 255, 0.4);
             font-family: 'Tourney',Arial, Helvetica, sans-serif, "cursive";
+        }
+        #header-image {
+            background-color: transparent;
+            position: relative;
+            scale: 0.5;
+            left: 55vw;
+            top: -310px;
+            rotate: -15deg;
+            z-index: -2;
+            filter: blur(0.5px);
+            -webkit-filter: blur(0.5px);
+            padding: 3px;
         }
 
         .gradient-text {
@@ -231,6 +244,7 @@
             <p class="header-title gradient-text">Mikołaj Kopernik</p>
             <p class="header-subtitle">Prezentacja wykonana przez</p>
             <p class="header-subtitle">Fabiana Stefańskiego oraz Filipa Pietruszyńskiego</p>
+            <img src="Copernicus-Hedearus.png" id="header-image">
         </div>
     <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="50" data-aos-offset="500" class="segment">
@@ -240,7 +254,7 @@
                     <span class="magic-star" style="left: -10px;top: 10px; transform: rotate(135deg);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></span>
                     <span class="magic-star" style="left: 75px;top: -18px; transform: rotate(-135deg);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></span>
                     Toruniu
-                </span></p><p>Był najmłodszym z czworga dzieci toruńskiego kupca <span class="person-name">Mikołaja Kopernika Sr.</span> i <span class="person-name">Barbary Watzenrode</span>.</p></div>
+                </span></p><p class="inside-text">Był najmłodszym z czworga dzieci toruńskiego kupca <span class="person-name">Mikołaja Kopernika Sr.</span> i <span class="person-name">Barbary Watzenrode</span>.</p></div>
                 <div class="content-images" id="kopernik-img-1"><img src="1.png"></div>
             </div>
         </div>
@@ -249,7 +263,12 @@
         <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="50" data-aos-offset="500" class="segment">
             <p class="title">Wybitny astronom</p>
             <div class="segment-content">
-                <div class="content-text"><p class="inside-text">Kopernik jest najbardziej znany jako astronom - twórca heliocentrycznego Układu Słonecznego i prawdopodobnie pierwszy heliocentryk w Europie od czasów starożytnej Grecji.</p></div>
+                <div class="content-text"><p class="inside-text" style="margin-bottom: 30px;">Kopernik jest najbardziej znany jako <span class="magic-text">
+                    <span class="magic-star" style="left: -12px;top: -13px; transform: rotate(135deg);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></span>
+                    <span class="magic-star" style="left: 95px;top: 17px; transform: rotate(-135deg);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></span>
+                    astronom</span>.</p><p class="inside-text" style="margin-bottom: 30px;">Twórca <span class="person-name">heliocentrycznego</span> Układu Słonecznego i prawdopodobnie pierwszy <span class="person-name">heliocentryk</span> w Europie od czasów starożytnej Grecji.</p>
+                    <p style="color: rgba(255, 255, 255, 0.45);">Kopernik jest autorem dzieła (o obrotach sfer niebieskich) przedstawiającego szczegółowo jego wizje Wszechświata.</p>
+                </div>
                 <div class="content-images"><img src="2.png"></div>
             </div>
         </div>
@@ -268,12 +287,34 @@
         <div data-aos="fade-right" data-aos-duration="250" data-aos-delay="50" data-aos-offset="500" class="segment">
             <p class="title">Kopernik</p>
             <div class="segment-content">
-                <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit... Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
+                <div class="content-text"><p class="inside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quas quia cumque quisquam quaerat numquam dolorum quod harum molestiae facere eaque totam, excepturi similique voluptatum voluptas? Qui quo enim illo!</p></div>
                 <div class="content-images"><img src="https://i.ibb.co/frr4BWz/tmp-name-2-31487-1502920343-3-dblbig.jpg"></div>
             </div>
         </div>
     <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     </div>
+
+    <script>
+        function scrollHandler() {
+        var element = document.getElementById('header-image');
+
+        var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
+        var elementHeight = element.offsetHeight;
+            var scrollTop = document.documentElement.scrollTop;
+            
+            var opacity = 1;
+            
+            if (scrollTop > distanceToTop) {
+                opacity = 1 - (scrollTop - distanceToTop) / elementHeight * 2;
+            }
+            
+            if (opacity >= -1) {
+                element.style.opacity = opacity;
+            }}
+
+        window.addEventListener('scroll', scrollHandler);
+    </script>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
